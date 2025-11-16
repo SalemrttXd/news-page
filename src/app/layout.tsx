@@ -1,6 +1,4 @@
 import "./globals.css";
-
-
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -11,6 +9,7 @@ export default function RootLayout({
       <head>
         <title>News</title>
       </head>
+
       <body>
         {children}
       </body>
