@@ -19,11 +19,11 @@ export default
         <nav id="duas-nav">
           <nav id="nav-1">
             <h2><strong>Children missing</strong></h2>
-            <p id="texto-esquerdo">Lorem ipsum dolor sit, amet consectetur adipisicing elt  aliquam, quam porro temporibus illum molestias laudantium officia. Impedit explicabo possimus placeat excepturi maxime assumenda nemo dolor consequuntur? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem debitis doloribus rem ex, praesentium atque laudantium sed qui quisquam quas quis delectus error  dolor sit amet consectetur, adipisicing elit. Laborum recusandae voluptas quibusdam veritatis minima, amet in a deserunt id impedit nobis, temporibus suscipit iste voluptatem. </p>
+            <p id="texto-esquerdo">Lorem ipsum dolor sit, amet consectetur adipisicing elt  aliquam, quam porro temporibus illum molestias laudantium officia. Impedit explicabo possimus placeat excepturi maxime assumenda nemo dolor consequuntur? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga, minus sapiente ducimus quibusdam, commodi quam repudiandae quisquam, libero deleniti cupionsectetur adipisicing elit. Autem debitis doloribus rem ex, praesentium atque laudantium sed qui quisquam quas quis delectus error  dolor sit amet consectetur, adipisicing elit. Laborum recusandae voluptas quibusdam veritatis minima, amet in a deserunt id impedit nobis, temporibus suscipit iste voluptatem. </p>
           </nav>
           <hr id="margem-meio"/>
           <nav id="nav-2">
-            <h2>SAUDADE DA MH MUIÉ</h2>
+            <h2>WHERE ARE YOUNG?</h2>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos odit
               saepe amet aliquid quam deleniti molestias neque pariatur veniam unde
@@ -43,13 +43,17 @@ export default
               laborum obcaecati debitis porro maxime ex aut delectus explicabo!
               Facilis, nulla corporis?
             </p>
-            <video src="movies/VID_20250615_171337.mp4" controls>
-              beautiful girl
-            </video>
-          </nav>
-        </nav>
 
-        <nav id="nav-3">
+            <nav id="text-movie">
+              <video src="movies/VID_20250615_171337.mp4" controls>
+                beautiful girl
+              </video> <p id="texto-do-video">Lorem ipsum dolor sitgkgjap, repudiandae facilis odio mollitia perferendis nostrum aspernatur ipsum non ea earum recusandae expedita voluptatum, et odit rerum iure delectus!</p>
+            </nav>
+          </nav>
+          <hr id="margem-meio"/>
+        </nav> 
+        <hr id="margem-horizontal-meio"/>
+        <nav id="nav-3">          
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius beatae necessitatibus modi doloribus. Nisi iure accusantium repudiandae nemo provident, voluptatibus temporibus minima illo, tempora accusamus animi voluptatem? Mollitia, eveniet rem.</p>        
 
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit facere unde aliquid fugit ducimus perferendis. Esse sint reiciendis quae voluptatem minima, ad adipisci, ipsam cupiditate non ratione, necessitatibus sit doloremque.

@@ -94,8 +94,18 @@ nav{
     width: 50%;
     border-radius: 1rem;
     box-shadow: -3px 3px 10px 3px rgba(0, 0, 0, 0.3);
+}
+#text-movie{
+    display: flex;
+    background-color: #f0eace;    
+}
 
-
+#texto-do-video{
+    max-height: max-content;
+    padding-left: 16px;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+    text-align: left;
 }
 video{
     height: 20%;
@@ -139,7 +149,16 @@ footer{
 }
 hr#margem-meio{
     margin: 0%;
-    width: 2px;
+    width: 8px;
+    background-color: #DBCC9B;   
+}
+hr#margem-horizontal-meio{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 0%;
+    height: 2px;
+    width: 80%;
     background-color: #DBCC9B;
 
 }
