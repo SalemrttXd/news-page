@@ -1,26 +1,60 @@
-@import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+#header{
+    background-color: #f0eace;    
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    padding: 2rem;
+}
+h1{
+    font-size: 60px;    
+    margin: 0%;
+}
+body{
+    display: flex;
+    background-color: #6b593e;
+    font-family: 'EB Garamond', 'Times New Roman', Times, serif;    
+    text-align: center;
+    place-content: center;
+    
+    
+}
+#container{
+    width: 800px;
+    padding: 5%;
+    margin: 32px;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.3);
+}    
+
+nav{
+    background-color: rgb(255, 255, 255);
+    padding: 1rem;    
+    
+
+}
+#corpo{
+    background-color: #f0eace;    
+}
+#bea{
+    height: 20%;
+    width: 20%;
+    border-radius: 10px;
+
+}
+video{
+    height: 20%;
+    width: 40%;
+    border-radius: 10px;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+footer{
+    background-color: white;
+    padding: 2rem;
+    background-color: #f0eace;    
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+hr{
+    background-color: #DBCC9B;
+    height: 2px;
 }
