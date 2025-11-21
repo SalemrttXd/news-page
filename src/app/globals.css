@@ -1,21 +1,45 @@
 
 #header{
-    background-color: #f0eace;    
+    background-color: #f0eace;  
+    margin-bottom: 0%;  
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
-    padding: 2rem;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 0%;
 }
-h1{
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
+#tema-jornal{
+    border-radius: 12px;
     padding: 0%;
     background-color: #dad09e7a;
-    font-size: 95px;    
+    font-size: 100px;    
+    margin: 0%;
+    text-shadow: -3px 1px 0px rgba(255, 255, 255, 0.938);
+}
+h1{
+    border-radius: 12px;
+    padding: 0%;
+    font-size: 75px;    
     margin: 0%;
 }
+a{
+    color: black;
+}
+#menu{
+    display: flex;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 0%;    
+    background-color: #f0eace;
+}
+#hr-menu{
+    height: 25px;
+    background-color: #DBCC9B;
+}
 h2 {
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
+     border-radius: 9px;
     background-color: #dad09e7a;
     text-align: center;
     font-size: 40px;
@@ -24,10 +48,11 @@ h2 {
 }
 h3{
  background-color: #dad09e7a;
- border-bottom-right-radius: 12px;
- border-bottom-right-radius: 12px;
+ border-radius: 9px;
+ text-align: center;
 
 }
+
 body{
     display: flex;
     background-color: #6b593e;
@@ -39,14 +64,14 @@ body{
 }
 #container{
     width: 800px;
-    padding: 5%;
+    padding: 2%;
     margin: 32px;
     box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.3);
 }    
 
 nav{
-    background-color: rgb(255, 255, 255);
-    padding: 1rem;     
+    background-color: #f0eace;
+    padding: 1rem;   
 
 }
 
@@ -57,15 +82,19 @@ nav{
     height: max-content;
     display: flex;
     background-color: #f0eace;    
-    
 }
 #nav-1{
     height: max-content;
     width: 50%;
     text-align: left;
+    padding-bottom: 0%;
     margin: 0%;
     background-color: #f0eace;    
 
+}
+ul{
+    margin-left: 0%;
+    padding-left: 0%;
 }
 #nav-2{
      height: max-content;
@@ -76,6 +105,7 @@ nav{
 }
 #nav-3{
     display: flex;
+    gap: 16px;
     background-color: #f0eace;    
 
 }
@@ -89,7 +119,7 @@ nav{
     padding-left: 16px;
     text-align: left;
 }
-#bea{
+#Emma-Woods{
     height: 20%;
     width: 50%;
     border-radius: 1rem;
@@ -148,15 +178,16 @@ footer{
     padding-bottom: 0%; 
 }
 hr#margem-meio{
-    margin: 0%;
+    margin:0%;
     width: 8px;
+    height: 810px;
     background-color: #DBCC9B;   
 }
 hr#margem-horizontal-meio{
     margin-left: auto;
     margin-right: auto;
     margin-top: 5%;
-    margin-bottom: 0%;
+    margin-bottom: 2%;
     height: 2px;
     width: 80%;
     background-color: #DBCC9B;

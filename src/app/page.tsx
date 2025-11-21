@@ -1,73 +1,80 @@
 export default 
  function NEWSPAPER(){
-  return( 
-   <body>
+  return( //e.a.m.m = (Eu Amo Minha Mulher) mas caso precise de um significado profissional p contexto Editora de Apoio a Midia e Monitoramento
+    
+   <body>    
     <nav id="container">
       <header id="header">
-        <h1><strong>MISSING</strong></h1>
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius odio
-          amet, vel in, facilis, eveniet fugiat rerum dignissimos quos eos qui
-          veniam! Sapiente dolores explicabo totam reiciendis dolorum
-          repellendus harum!
-        </p>
-        <hr id="margem" />
+        <h1 id="tema-jornal">E.A.M.M NOTÍCIAS</h1>
+        <hr id="margem-horizontal-meio"/>
+                <h1><strong>DESAPARECIDA</strong></h1>
+        <div id="menu">
+          <a href="#header">INICIO</a> <hr id="hr-menu"/>
+          <a href="#margem-meio">NOTÍCIA</a> <hr id="hr-menu"/>
+          <a href="#creditos">RODAPÉ</a>
+          </div>
       </header>
 
       <nav id="corpo-meio">
 
         <nav id="duas-nav">
           <nav id="nav-1">
-            <h2><strong>Children missing</strong></h2>
-            <p id="texto-esquerdo">Lorem ipsum dolor sit, amet consectetur adipisicing elt  aliquam, quam porro temporibus illum molestias laudantium officia. Impedit explicabo possimus placeat excepturi maxime assumenda nemo dolor consequuntur? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga, minus sapiente ducimus quibusdam, commodi quam repudiandae quisquam, libero deleniti cupionsectetur adipisicing elit. Autem debitis doloribus rem ex, praesentium atque laudantium sed qui quisquam quas quis delectus error  dolor sit amet consectetur, adipisicing elit. Laborum recusandae voluptas quibusdam veritatis minima, amet in a deserunt id impedit nobis, temporibus suscipit iste voluptatem. </p>
+            <h2><strong>BUSCAS</strong></h2>
+            <p id="texto-esquerdo">
+A polícia foi acionada ainda no fim da tarde. Moradores se uniram em mutirões, lanternas e celulares iluminando becos, terrenos baldios e a pequena estrada rural que margeia a cidade. Drones, cães farejadores e equipes especializadas vasculharam a região por dias.
+Nenhuma pista concreta foi encontrada. Helena aparece andando sozinha, segurando o caderno contra o peito. Um minuto depois, na mesma gravação, ela não aparece mais. 
+
+ <h3>Depoimentos e investigação</h3>
+Até o momento, a investigação trabalha com três frentes principais:
+
+<ul>
+  <li><strong>Desaparecimento voluntário</strong> é descartado, devido à idade e ao perfil da criança;</li>    
+  <li><strong>Possível desorientação</strong>, caso Emma tenha mudado de rota; </li>
+  <li><strong>interferência de terceiros</strong>, ainda sem suspeitos identificados.</li>
+</ul>.</p>
           </nav>
           <hr id="margem-meio"/>
           <nav id="nav-2">
-            <h2>WHERE ARE YOUNG?</h2>
+            <h2>MENINA DE 8 ANOS DESAPARECIDA</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos odit
-              saepe amet aliquid quam deleniti molestias neque pariatur veniam unde
-              porro mollitia enim accusantium ratione excepturi, corporis debitis
-              iure! Neque!
+              A polícia continua as buscas por Emma Woods, 8 anos, desaparecida desde a tarde da última segunda-feira (18). A criança sumiu enquanto retornava sozinha da Escola Municipal Jardim das Flores, em um percurso de aproximadamente 600 metros até sua residência.
             </p>
               <nav id="texto-img">
                 <img
-                id="bea"
-                src="/image/gardener-identityv.jpg"
-                alt="imagem_teste"
-                            /> <p id="texto-da-img">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, eum ipsa provident dicta accusantium eaque odio perspiciatis non, vero, soluta quis ape Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium sint aliquid, consequatur  placeat at quia eveniet, nesciunt suscipit minima, ex eum laborum aspernatur repudiandae.riam maiores impedit exercitationem minus atque! Quos, quo minima!</p>
+                id="Emma-Woods"
+                src="/image/gardener-identityv - Editado.jpg"
+                alt="children-image"
+                            /> <p id="texto-da-img">Emma Woods era uma garota de 8 anos de idade, estudante da Escola Municipal Jardim das Flores. Era descrita como uma criança muito dedicada, tranquila e que amava passáros, rodeada de amigos na escola, e outras crianças de seu bairro. Reservada e educada, Emma raramente se afastava da rotina escolar e não apresentava histórico de conflitos, problemas de comportamento ou desaparecimentos anteriores.</p>
               </nav>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur
-              quaerat est nostrum vitae reiciendis adipisci, sit eos temporibus
-              laborum obcaecati debitis porro maxime ex aut delectus explicabo!
-              Facilis, nulla corporis?
+              Segundo a família, Emma costumava voltar acompanhada de seus colegas de classe. No dia do desaparecimento, no entanto, ela teria atrasado a saída da escola após retornar à sala para buscar seu caderno que havia esquecido.
             </p>
 
             <nav id="text-movie">
-              <video src="movies/VID_20250615_171337.mp4" controls>
-                beautiful girl
-              </video> <p id="texto-do-video">Lorem ipsum dolor sitgkgjap, repudiandae facilis odio mollitia perferendis nostrum aspernatur ipsum non ea earum recusandae expedita voluptatum, et odit rerum iure delectus!</p>
+              <video src="/movies/Emma-Woods-movie2.0.mp4" controls>               
+              </video> <p id="texto-do-video">A Polícia Civil informou que está colhendo depoimentos.
+                Não há, até o momento, nenhuma evidência concreta que indique se a menina deixou o bairro.</p>
             </nav>
           </nav>
-          <hr id="margem-meio"/>
+          
         </nav> 
-        <hr id="margem-horizontal-meio"/>
-        <nav id="nav-3">          
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius beatae necessitatibus modi doloribus. Nisi iure accusantium repudiandae nemo provident, voluptatibus temporibus minima illo, tempora accusamus animi voluptatem? Mollitia, eveniet rem.</p>        
 
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit facere unde aliquid fugit ducimus perferendis. Esse sint reiciendis quae voluptatem minima, ad adipisci, ipsam cupiditate non ratione, necessitatibus sit doloremque.
+        <nav id="nav-3">          
+          <p>Maria Helena, Uma comerciante da região relatou que a menina passou em frente ao estabelecimento com postura tranquila e sem demonstrar qualquer sinal de medo, pressa ou comportamento atípico</p>        
+
+          <p>Outro depoimento, colhido por investigadores, indica que Emma teria parado por alguns segundos próxima a uma árvore onde frequentemente observava pássaros um "hábito comum", mencionado pela própria família.
             </p>
           </nav>
       </nav>
-      <nav id="pre-footer"> <p id="texto-footer">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt laborum qui nihil deb Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, corrupti! Voluptas labore autem, amet earum quo provident vero optio doloribus repudiandae, nisi quam quae vel reprehenderit voluptate? Quod, illo architecto? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam soluta nam consequuntur esse quaerat saepe tempora ratione voluptatibus molestiae, doloremque, ea cum deleniti recusandae repellendus facilis totam cumque ad minus? itis, eos delectus alias nobis neque, omnis, veniam vel provident accusamus? Inventore vel veniam ducimus nisi eum omnis!</p></nav>
+      <nav id="pre-footer"> <p id="texto-footer">O último relato considerado consistente pela polícia indica que Emma foi vista a cerca de 300 metros de sua residência. Depois desse ponto, não há novos testemunhos confiáveis que indiquem se ela continuou no mesmo caminho ou se desviou da rota.
+        A falta de câmeras na maior parte do bairro dificulta a verificação das informações, e até o momento nenhum morador relatou ter visto a menina entrar em carros, conversar com desconhecidos ou mudar de direção.
+        A polícia continua buscando novas testemunhas e pede que qualquer pessoa que tenha estado na região entre 16h50 e 17h30 entre em contato.</p></nav>
       <hr id="margem"/>
       <footer>
           <strong>
             <p id="creditos">By: Beatriz Rodrigues & Henrique Ramos</p> <p id="creditos">2025</p>
           </strong>
-      </footer>
-      
+      </footer>      
     </nav>
   </body>
   )
