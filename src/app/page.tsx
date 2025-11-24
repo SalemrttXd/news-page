@@ -22,13 +22,13 @@ export default
             <h2><strong>BUSCAS</strong></h2>
             <p id="texto-esquerdo">
 A polícia foi acionada ainda no fim da tarde. Moradores se uniram em mutirões, lanternas e celulares iluminando becos, terrenos baldios e a pequena estrada rural que margeia a cidade. Drones, cães farejadores e equipes especializadas vasculharam a região por dias.
-Nenhuma pista concreta foi encontrada. Helena aparece andando sozinha, segurando o caderno contra o peito. Um minuto depois, na mesma gravação, ela não aparece mais. 
+Nenhuma pista concreta foi encontrada. Emma aparece andando sozinha, segurando o caderno contra o peito. Um minuto depois, na mesma gravação, ela não aparece mais. 
 
  <h3>Depoimentos e investigação</h3>
-Até o momento, a investigação trabalha com três frentes principais:
+Até o momento, a investigação tomou três frentes principais:
 
 <ul>
-  <li><strong>Desaparecimento voluntário</strong> é descartado, devido à idade e ao perfil da criança;</li>    
+  <li><strong>Desaparecimento voluntário</strong> que foi descartado, devido à idade e ao perfil da criança;</li>    
   <li><strong>Possível desorientação</strong>, caso Emma tenha mudado de rota; </li>
   <li><strong>interferência de terceiros</strong>, ainda sem suspeitos identificados.</li>
 </ul>.</p>
@@ -44,7 +44,7 @@ Até o momento, a investigação trabalha com três frentes principais:
                 id="Emma-Woods"
                 src="/image/gardener-identityv - Editado.jpg"
                 alt="children-image"
-                            /> <p id="texto-da-img">Emma Woods era uma garota de 8 anos de idade, estudante da Escola Municipal Jardim das Flores. Era descrita como uma criança muito dedicada, tranquila e que amava passáros, rodeada de amigos na escola, e outras crianças de seu bairro. Reservada e educada, Emma raramente se afastava da rotina escolar e não apresentava histórico de conflitos, problemas de comportamento ou desaparecimentos anteriores.</p>
+                            /> <p id="texto-da-img">Emma Woods é uma garota de 8 anos de idade, estudante da Escola Municipal Jardim das Flores. É descrita como uma criança muito dedicada, tranquila e que ama passáros, rodeada de amigos na escola, e outras crianças de seu bairro. Reservada e educada, Emma raramente se afastava da rotina escolar e não apresentava histórico de conflitos, problemas de comportamento ou desaparecimentos anteriores.</p>
               </nav>
             <p>
               Segundo a família, Emma costumava voltar acompanhada de seus colegas de classe. No dia do desaparecimento, no entanto, ela teria atrasado a saída da escola após retornar à sala para buscar seu caderno que havia esquecido.
@@ -62,7 +62,7 @@ Até o momento, a investigação trabalha com três frentes principais:
         <nav id="nav-3">          
           <p>Maria Helena, Uma comerciante da região relatou que a menina passou em frente ao estabelecimento com postura tranquila e sem demonstrar qualquer sinal de medo, pressa ou comportamento atípico</p>        
 
-          <p>Outro depoimento, colhido por investigadores, indica que Emma teria parado por alguns segundos próxima a uma árvore onde frequentemente observava pássaros um "hábito comum", mencionado pela própria família.
+          <p>Outro depoimento, colhido por investigadores, indica que Emma teria parado por alguns segundos próxima a uma árvore onde frequentemente observava pássaros um "hábito comum", mencionado pela própria tia, sendo ela quem reportou o desaparecimento a policia.
             </p>
           </nav>
       </nav>
@@ -72,7 +72,7 @@ Até o momento, a investigação trabalha com três frentes principais:
       <hr id="margem"/>
       <footer>
           <strong>
-            <p id="creditos">By: Beatriz Rodrigues & Henrique Ramos</p> <p id="creditos">2025</p>
+            <p id="creditos">Matéria por Esther Greenwood</p> <p id="creditos">2025</p>
           </strong>
       </footer>      
     </nav>
